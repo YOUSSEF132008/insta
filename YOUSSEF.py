@@ -16,7 +16,7 @@ except ModuleNotFoundError:
 import webbrowser
 import getpass
 import os,requests,sys,time,datetime
-
+webbrowser.open('https://t.me/kingelnet')
 print(f"""
 {render('YOUSEF', colors=['green', 'yellow'], align='center')}
 \033[1;37m
